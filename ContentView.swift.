@@ -1,0 +1,46 @@
+import SwiftUI
+
+struct ContentView: View {
+    @State private var isConnected = false
+
+    var body: some View {
+        ZStack {
+            Color(red: 0.03, green: 0.05, blue: 0.04)
+                .ignoresSafeArea()
+
+            VStack(spacing: 28) {
+                Text("MYVPN")
+                    .font(.largeTitle.bold())
+                    .foregroundColor(.green)
+
+                Image(systemName: "shield.lefthalf.filled")
+                    .font(.system(size: 90))
+                    .foregroundColor(.green)
+
+                Text(isConnected ? "DEMO ACTIVE" : "DISCONNECTED")
+                    .font(.title2.bold())
+                    .foregroundColor(.white)
+
+                Button {
+                    isConnected.toggle()
+                } label: {
+                    Text(isConnected ? "Disconnect" : "Connect")
+                        .font(.headline)
+                        .foregroundColor(.black)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.green)
+                        .cornerRadius(16)
+                }
+
+                Text("Selected server: Germany")
+                    .foregroundColor(.gray)
+
+                Text("Demo interface — no VPN connection")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+            }
+            .padding(24)
+        }
+    }
+}
