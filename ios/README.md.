@@ -1,0 +1,17 @@
+# MyVPN iOS
+
+Native iPhone application.
+
+## Technology
+- Swift
+- SwiftUI
+- Network Extension
+- WireGuardKit
+
+## Screens
+- Home
+- Server Selection
+- Settings
+
+## Development status
+Planning
