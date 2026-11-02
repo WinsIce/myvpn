@@ -1,0 +1,10 @@
+[project]
+name = "myvpn"
+version = "0.1.0"
+description = "MyVPN demo project"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
