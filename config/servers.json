@@ -1,0 +1,22 @@
+{
+  "servers": [
+    {
+      "id": "germany",
+      "name": "Germany",
+      "city": "Frankfurt",
+      "status": "demo"
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "city": "Amsterdam",
+      "status": "demo"
+    },
+    {
+      "id": "finland",
+      "name": "Finland",
+      "city": "Helsinki",
+      "status": "demo"
+    }
+  ]
+}
