@@ -1,0 +1,22 @@
+# MyVPN — Main Screen
+
+## Header
+- Logo: shield with lightning
+- Name: MyVPN
+- Version: 0.1.0
+
+## Connection
+- Status: Disconnected
+- Main button: Connect
+- Selected server: Germany
+
+## Navigation
+- Home
+- Servers
+- Statistics
+- Settings
+
+## Colors
+- Background: #080B0A
+- Main: #39FF14
+- Text: #FFFFFF
